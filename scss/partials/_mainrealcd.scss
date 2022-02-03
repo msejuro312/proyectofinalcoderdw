@@ -1,0 +1,94 @@
+@import "./media-queries";
+
+#imgCD {
+    background-image: url(../assets/directorio.png);
+    background-position: center;
+    background-size: cover; }
+
+
+.btncd {  
+    list-style: none; 
+    padding-left: 0px;
+}
+
+@mixin btncds {
+    color: #e3e9ff;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    background-color: $miverde;
+    font-size: 1.5em;
+    padding: 5px*4;
+    margin: 5px*4;
+    border-radius: 5%;
+    border: solid;
+    @include moviles{
+        font-size: 0.5 em;
+        padding: 3px*4;
+        margin: 3px*4;
+    }
+
+
+    
+}
+
+.btncd1{
+    @include btncds();
+    
+    
+    
+}
+
+.btncd2{
+    @extend .btncd1;
+    background-color: #c4ffff;
+    color: #00002e;
+   
+    
+}
+
+
+
+.btncd3{
+    @extend .btncd1;
+    background-color: #00bbbd;
+}
+
+.logo{
+    
+    margin: auto;
+    padding: 1.5px;
+    display: inline;
+    
+    @include moviles{
+        display: inline;
+       
+    }
+}
+
+.logo1 {
+    width: 60px ;
+    height: 60px ;
+    @include moviles {
+        width: 50px ;
+        height: 50px ;
+    }
+}
+
+#imgcontact{
+    object-fit: cover;
+}
+
+.tilo{
+    padding: 20px;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+

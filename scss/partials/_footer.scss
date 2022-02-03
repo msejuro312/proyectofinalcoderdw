@@ -1,0 +1,42 @@
+
+$estilosfooter:(
+    top: 10px,
+    bottom: 5px,
+    radius: 10px,
+    padding: 20px 20px 20px 20px,
+    background: linear-gradient(to bottom, $miazul, $miverde),
+    color: $miblanco,
+    font: 'Signika Negative',   
+    
+    );
+
+
+
+#footer{
+  background-image: map-get($estilosfooter, background);
+  color: map-get($estilosfooter, color) ;
+  font-family: map-get($estilosfooter, font) ;
+  overflow: hidden;
+  
+  
+  
+}    
+
+#mapa{
+    
+    margin-top: map-get($estilosfooter, top);
+    margin-bottom: map-get($estilosfooter, bottom);
+    border-radius: map-get($estilosfooter, radius);
+    padding: map-get($estilosfooter, padding);
+  
+
+}
+
+
+
+
+
+  
+  
+  
+  

@@ -1,0 +1,40 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+#main {
+  background-image: linear-gradient(to bottom, #0056A7, #66999B);
+  color: #FFFEFE;
+  font-family: 'Signika Negative', sans-serif; }
+
+#rowmain {
+  height: 70vh; }
+
+h1 {
+  animation-duration: 5s;
+  animation-name: show;
+  animation-iteration-count: infinite; }
+
+@keyframes show {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 4; } }
+
+#imgCD {
+  background-image: url(../assets/directorio.png);
+  background-position: center;
+  background-size: cover; }
+
+#footer {
+  background-image: linear-gradient(to bottom, #0056A7, #66999B);
+  color: #FFFEFE;
+  font-family: 'Signika Negative', sans-serif; }
+
+#mapa {
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+#rowfooter {
+  justify-content: center; }
+
+#direccion {
+  justify-content: center; }
